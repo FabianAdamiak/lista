@@ -1,0 +1,70 @@
+
+body, h1, h2, h3, p, ul, li, img, hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+}
+
+.baner {
+  background-color: #005B4F;
+  color: #fff;
+  text-align: center;
+  font-size: 50%;
+  height: 20px;
+  line-height: 20px;
+}
+
+.glowny {
+  background-color: #E1E2E1;
+  height: 400px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.blok .zdjecie {
+  width: 20%;
+}
+
+.blok .opis {
+  display: inline-block;
+}
+
+.blok .linia {
+  clear: both;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+}
+
+.stopka-blok1, .stopka-blok2 {
+  background-color: #005B4F;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+    
+}
+.stopka-blok2
+{
+    width: 180%;
+}
+    
+
+.blok .zdjecie img {
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.glowny h2 {
+  text-align: center;
+  background-color: #00897B;
+}
+
+
+.stopka-blok2 a {
+  color: #fff;
+}
